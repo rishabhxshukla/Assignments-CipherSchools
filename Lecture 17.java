@@ -67,6 +67,13 @@ class MinStack
 
     public static void main(String args[]) 
     {
-        //
+        MinStack s = new MinStack();
+        s.push(2);
+        s.push(10);
+        s.push(12);
+        s.push(5);
+        s.push(18);
+
+        System.out.println(s.getMin());
     }
 }
