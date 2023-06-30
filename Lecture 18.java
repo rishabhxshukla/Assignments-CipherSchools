@@ -34,4 +34,12 @@ class DuplicateParenthesis
 
         return false;
     }
+
+
+    public static void main(String args[]) 
+    {
+        String str = "(((1 + (2))) + (3))";
+
+        System.out.println(containsDuplicateParenthesis(str));
+    }
 }
